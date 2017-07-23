@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/isaac/C++/03_library/include/Student.h
+string
+-
+
+/home/isaac/C++/04_using_library/src/main.cpp
+Student.h
+/home/isaac/C++/04_using_library/src/Student.h
+

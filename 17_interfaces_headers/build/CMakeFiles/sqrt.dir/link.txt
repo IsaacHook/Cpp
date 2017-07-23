@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/sqrt.dir/src/IFileErrorLog.cpp.o CMakeFiles/sqrt.dir/src/sqrt.cpp.o CMakeFiles/sqrt.dir/src/IScreenErrorLog.cpp.o  -o sqrt -rdynamic 

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/IErrorLog.h
+
+../include/IFileErrorLog.h
+IErrorLog.h
+-
+
+../include/IScreenErrorLog.h
+
+/home/isaac/C++/09_interfaces/src/IFileErrorLog.cpp
+IFileErrorLog.h
+-
+iostream
+-
+
+/home/isaac/C++/09_interfaces/src/IScreenErrorLog.cpp
+IScreenErrorLog.h
+-
+iostream
+-
+
+/home/isaac/C++/09_interfaces/src/sqrt.cpp
+cmath
+-
+IFileErrorLog.h
+-
+IScreenErrorLog.h
+-
+iostream
+-
+

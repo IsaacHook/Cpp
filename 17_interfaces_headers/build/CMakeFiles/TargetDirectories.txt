@@ -1,0 +1,4 @@
+/home/isaac/C++/09_interfaces/build/CMakeFiles/edit_cache.dir
+/home/isaac/C++/09_interfaces/build/CMakeFiles/rebuild_cache.dir
+/home/isaac/C++/09_interfaces/build/CMakeFiles/sqrt.dir
+/home/isaac/C++/09_interfaces/build/CMakeFiles/sqrt_without_interface.dir

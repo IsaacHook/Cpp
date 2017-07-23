@@ -57,33 +57,9 @@ include CMakeFiles/student.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/student.dir/flags.make
 
-CMakeFiles/student.dir/src/main.cpp.o: CMakeFiles/student.dir/flags.make
-CMakeFiles/student.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/C++/02_student/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student.dir/src/main.cpp.o -c /home/isaac/C++/02_student/src/main.cpp
-
-CMakeFiles/student.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/C++/02_student/src/main.cpp > CMakeFiles/student.dir/src/main.cpp.i
-
-CMakeFiles/student.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/C++/02_student/src/main.cpp -o CMakeFiles/student.dir/src/main.cpp.s
-
-CMakeFiles/student.dir/src/main.cpp.o.requires:
-
-.PHONY : CMakeFiles/student.dir/src/main.cpp.o.requires
-
-CMakeFiles/student.dir/src/main.cpp.o.provides: CMakeFiles/student.dir/src/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/student.dir/build.make CMakeFiles/student.dir/src/main.cpp.o.provides.build
-.PHONY : CMakeFiles/student.dir/src/main.cpp.o.provides
-
-CMakeFiles/student.dir/src/main.cpp.o.provides.build: CMakeFiles/student.dir/src/main.cpp.o
-
-
 CMakeFiles/student.dir/src/Student.cpp.o: CMakeFiles/student.dir/flags.make
 CMakeFiles/student.dir/src/Student.cpp.o: ../src/Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/C++/02_student/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/student.dir/src/Student.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/C++/02_student/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student.dir/src/Student.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student.dir/src/Student.cpp.o -c /home/isaac/C++/02_student/src/Student.cpp
 
 CMakeFiles/student.dir/src/Student.cpp.i: cmake_force
@@ -105,16 +81,40 @@ CMakeFiles/student.dir/src/Student.cpp.o.provides: CMakeFiles/student.dir/src/St
 CMakeFiles/student.dir/src/Student.cpp.o.provides.build: CMakeFiles/student.dir/src/Student.cpp.o
 
 
+CMakeFiles/student.dir/src/main.cpp.o: CMakeFiles/student.dir/flags.make
+CMakeFiles/student.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/C++/02_student/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/student.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student.dir/src/main.cpp.o -c /home/isaac/C++/02_student/src/main.cpp
+
+CMakeFiles/student.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/C++/02_student/src/main.cpp > CMakeFiles/student.dir/src/main.cpp.i
+
+CMakeFiles/student.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/C++/02_student/src/main.cpp -o CMakeFiles/student.dir/src/main.cpp.s
+
+CMakeFiles/student.dir/src/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/student.dir/src/main.cpp.o.requires
+
+CMakeFiles/student.dir/src/main.cpp.o.provides: CMakeFiles/student.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/student.dir/build.make CMakeFiles/student.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/student.dir/src/main.cpp.o.provides
+
+CMakeFiles/student.dir/src/main.cpp.o.provides.build: CMakeFiles/student.dir/src/main.cpp.o
+
+
 # Object files for target student
 student_OBJECTS = \
-"CMakeFiles/student.dir/src/main.cpp.o" \
-"CMakeFiles/student.dir/src/Student.cpp.o"
+"CMakeFiles/student.dir/src/Student.cpp.o" \
+"CMakeFiles/student.dir/src/main.cpp.o"
 
 # External object files for target student
 student_EXTERNAL_OBJECTS =
 
-student: CMakeFiles/student.dir/src/main.cpp.o
 student: CMakeFiles/student.dir/src/Student.cpp.o
+student: CMakeFiles/student.dir/src/main.cpp.o
 student: CMakeFiles/student.dir/build.make
 student: CMakeFiles/student.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isaac/C++/02_student/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable student"
@@ -125,8 +125,8 @@ CMakeFiles/student.dir/build: student
 
 .PHONY : CMakeFiles/student.dir/build
 
-CMakeFiles/student.dir/requires: CMakeFiles/student.dir/src/main.cpp.o.requires
 CMakeFiles/student.dir/requires: CMakeFiles/student.dir/src/Student.cpp.o.requires
+CMakeFiles/student.dir/requires: CMakeFiles/student.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/student.dir/requires
 
